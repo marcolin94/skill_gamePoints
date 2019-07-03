@@ -1,9 +1,36 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.507bd21f-d4bd-46cf-9435-d3aaf7785f57",
       "was_cloned": false,
-      "merge": {}
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "70d58158ffc0ff7dd30e1238d4d5833a"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "c419f3e7ebdb9748d853364dd3b891d6"
+          },
+          "it-IT": {
+            "eTag": "7fc735767fe1477deb9e19b98e8e7def"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:eu-west-1:822276630470:function:ask-custom-gamePoints-default",
+            "awsRegion": "eu-west-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-gamePoints-default",
+            "handler": "index.handler",
+            "revisionId": "1806d545-d298-4d71-af69-b4267302310b",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
     }
   }
 }
