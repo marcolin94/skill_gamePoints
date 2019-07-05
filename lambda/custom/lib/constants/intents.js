@@ -4,6 +4,7 @@ const intents = {
 	CANCEL : 'AMAZON.CancelIntent',
 	INVOCATION : 'LaunchRequest',
 	SESSION_END : 'SessionEndedRequest',
+	START_GAME: 'StartGameIntent'
 };
 
 module.exports = intents;

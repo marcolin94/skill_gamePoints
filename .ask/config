@@ -13,7 +13,7 @@
             "eTag": "c419f3e7ebdb9748d853364dd3b891d6"
           },
           "it-IT": {
-            "eTag": "7fc735767fe1477deb9e19b98e8e7def"
+            "eTag": "3862b916cd3096f63f68cb48e5e1b8ed"
           }
         },
         "lambda": [
@@ -26,7 +26,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-gamePoints-default",
             "handler": "index.handler",
-            "revisionId": "1806d545-d298-4d71-af69-b4267302310b",
+            "revisionId": "da2be9d2-fd65-4c79-a4c1-8f25c419369e",
             "runtime": "nodejs8.10"
           }
         ]

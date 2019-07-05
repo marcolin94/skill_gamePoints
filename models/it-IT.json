@@ -16,6 +16,26 @@
           "samples": [
             "stop"
           ]
+        },
+        {
+          "name": "StartGameIntent",
+          "slots": [
+            {
+              "name": "playerOne",
+              "type": "AMAZON.FirstName"
+            },
+            {
+              "name": "playerTwo",
+              "type": "AMAZON.FirstName"
+            },
+            {
+              "name": "maxPoints",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "giocatori {playerOne} e {playerTwo} e punti {maxPoints}"
+          ]
         }
       ],
       "types": [
